@@ -1,0 +1,1 @@
+This is the bedstone of the later book 'data struture'. I still not very familiar with c though i have doing php programming for 2 years. I will be quick learning it so as to start the next study of data-structure and algorithm(beacase of the book is also in c).
