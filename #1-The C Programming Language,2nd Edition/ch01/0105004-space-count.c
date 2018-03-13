@@ -19,7 +19,8 @@ int main()
             nNewline++;
         }
     }
-    printf("%d, %d, %d", nBlank, nTab, nNewline);
+    printf("%1d, %1d, %1d", nBlank, nTab, nNewline);
+    return 0;
 }
 
 // why ctrl+d cannot terminate console input??
