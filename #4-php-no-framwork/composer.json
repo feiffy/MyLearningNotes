@@ -1,0 +1,24 @@
+{
+  "name": "feiffy/no-framework",
+  "description": "An Example of a modern PHP application bootstrapped without a framework",
+  "type": "project",
+  "authors": [
+    {
+      "name": "feiffy",
+      "email": "feifeifanye@hotmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php-di/php-di": "dev-master",
+    "relay/relay": "2.x@dev",
+    "zendframework/zend-diactoros": "^1.7@dev",
+    "middlewares/fast-route": "dev-master",
+    "middlewares/request-handler": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "ExampleApp\\": "src/"
+    }
+  }
+}
