@@ -19,7 +19,6 @@ void shellsort(int v[], int n)
                 v[j] = v[j+gap];
                 v[j+gap] = temp;
             }
-            int k=0;
         }
     }
 }
